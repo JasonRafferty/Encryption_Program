@@ -46,7 +46,7 @@ public class Encryption {
 			    continue;
 			}
 			// Get the first character of the user's input and convert it to uppercase
-			char response = Character.toUpperCase(scanner.nextLine().charAt(0));
+			char response = Character.toUpperCase(input.charAt(0));
 			
 			// Use a switch statement to handle user choices
 			switch(response ) {
@@ -114,6 +114,9 @@ public class Encryption {
 			System.out.print(x);
 		}
 		
+		// Add line spacings
+		System.out.println();
+
 	}
 	
 	private void encrypt() {
@@ -122,7 +125,7 @@ public class Encryption {
 		
 		// Convert the message string into a character array
 		letters = message.toCharArray();
-		System.out.println(letters);
+
 		
 		// Loop through each character in the input message
 		for(int i= 0;i<letters.length;i++) {
