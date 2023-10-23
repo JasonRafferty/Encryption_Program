@@ -48,7 +48,4 @@ During decryption, the process is reversed: characters from the encrypted messag
 This being my second project, I've delved deeper into the intricacies of software development, especially with the inclusion of error handling to ensure a seamless user experience 🛠️. As I look to the future, I'm excited about the prospect of adding a graphical user interface (GUI) to make the tool even more user-friendly and interactive as I gain more experience. 🖥️  Additionally, I aim to introduce features that enable users to save and retrieve encryption keys, facilitating decryption across different sessions or devices.
 
 
-   <div style="flex: 1; margin-left: 10px; border: 1px solid black; border-radius: 10px; padding: 5px;">
-    <img src="https://github.com/JasonRafferty/Tic-Tac-Toe/blob/master/TicTacToe/src/LogoHover.jpg" alt="Diagram" style="width: 100px; height: auto;">
-  </div>
-</div>
+
